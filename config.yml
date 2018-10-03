@@ -1,0 +1,12 @@
+# DO NOT TOUCH THE CONFIG VERSION UNLESS YOU KNOW WHAT YOU ARE DOING. IT MAY DISABLE THE PLUGIN.
+# Edit this upon plugin loading into the server. You can use & to use colors.
+config-version: 1
+ #
+# MESSAGE
+# You can use "%player%" as the players name in the message.
+no-perm: '&cYou do not have permission to issue this command %player%!'
+#
+# PERMISSION-NODE
+# You can set this permission to whatever you want.
+# It is recommended to keep it lower-case.
+permission-node: 'playerinfo.use'

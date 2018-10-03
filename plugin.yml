@@ -1,0 +1,9 @@
+name: PlayerInfo
+version: 1.3
+main: me.skizzy.playerinfo.core
+author: ItzSkizzy
+description: Look at the information of players!
+website: www.scorchgamez.net
+commands:
+    pinfo:
+         description: Get information on a player
