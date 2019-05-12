@@ -60,9 +60,12 @@ public class core extends JavaPlugin implements Listener {
 				// player.getLocation().getY() + ", "
 				// + player.getLocation().getZ());
 				sender.sendMessage(ChatColor.GOLD + " Gamemode: §7" + target.getGameMode().name().toUpperCase());
+				sender.sendMessage(ChatColor.GOLD + " Fly mode: §7" + target.getAllowFlight());
+				sender.sendMessage(ChatColor.GOLD + " Sneaking / Flying: §7" + target.isSneaking() + " / " + target.isFlying());
+				sender.sendMessage(ChatColor.GOLD + " Player weather: §7" + target.getPlayerWeather());
 				sender.sendMessage(ChatColor.GOLD + " Food Level: §7" + target.getFoodLevel() + "/20");
 				sender.sendMessage(ChatColor.GOLD + " Item In Hand: §7" + target.getItemInHand().getType() + ", "
-						+ target.getItemInHand().getTypeId());
+						+ target.getItemInHand().getType());
 				sender.sendMessage(ChatColor.GOLD + " EXP Level: §7" + target.getLevel());
 				sender.sendMessage("");
 			} else if (!player.hasPermission(getConfig().getString("permission-node"))) {

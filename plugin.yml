@@ -1,5 +1,5 @@
-name: PlayerInfo
-version: 1.3
+name: PlayerInformation
+version: 1.4
 main: me.skizzy.playerinfo.core
 author: ItzSkizzy
 description: Look at the information of players!
